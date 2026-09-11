@@ -17,3 +17,6 @@ state.json
 # IDEs
 .vscode/
 .idea/
+
+# Demais arquivos
+test_email.py
