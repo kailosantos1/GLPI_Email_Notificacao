@@ -26,7 +26,7 @@ Ele identifica o requerente correto do chamado, recupera informações de status
 ---
 
 ## 📂 Estrutura do Projeto
-
+```text
 GLPI_EMAIL_NOTIFICACAO/
 ├── config.py              # Definições de variáveis de ambiente e logger
 ├── main.py                # Loop principal do serviço e controle de estado
@@ -35,11 +35,12 @@ GLPI_EMAIL_NOTIFICACAO/
 ├── services/
 │   ├── email_service.py   # Lógica de montagem e envio dos e-mails
 │   └── glpi_service.py    # Comunicação com a API REST do GLPI
-└── .env                   # Variáveis de ambiente sensíveis (ignorado no Git)
+└── .env 
+```
 ---
 
-
-## ⚙️ Configuração (.env)
+```text
+⚙️ Configuração (.env)
 Crie um arquivo .env na raiz do projeto com as credenciais do GLPI e do servidor SMTP:
 
 Snippet de código
@@ -60,9 +61,9 @@ SMTP_PORT=587
 SMTP_USER=seu-email@dominio.com
 SMTP_PASSWORD=sua_senha
 EMAIL_FROM=seu-email@dominio.com
----
 
-## 💻 Como Executar
+
+💻 Como Executar
 Instale as dependências:
 
 Bash
@@ -71,4 +72,3 @@ Execute a aplicação:
 
 Bash
 python main.py
----
