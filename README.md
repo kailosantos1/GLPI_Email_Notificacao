@@ -39,6 +39,12 @@ GLPI_EMAIL_NOTIFICACAO/
 ```
 ---
 
+## 📚 Documentação do projeto
+
+A documentação organizada para navegação no Obsidian está em [`docs/obsidian/`](docs/obsidian/00%20-%20Inicio/Inicio.md). Abra essa pasta como um vault no Obsidian. Ela descreve a arquitetura, os módulos, os fluxos, o checkpoint, as integrações, o desenvolvimento e os pontos que ainda precisam de confirmação.
+
+---
+
 ```text
 ⚙️ Configuração (.env)
 Crie um arquivo .env na raiz do projeto com as credenciais do GLPI e do servidor SMTP:
